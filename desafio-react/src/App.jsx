@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
+import foto from './assets/foto.jpg';
 
 
 
@@ -9,7 +10,7 @@ export default function App() {
   return (
     <div className="card">
       <img
-        src="./css/desafio react.png"
+        src="desafio-react/src/assets/foto.jpg"
         alt="Gramado"
         className="card-image"
       />
