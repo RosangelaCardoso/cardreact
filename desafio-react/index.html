@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+export default function App() {
+  return (
+    <div className="card">
+      <img
+        src="/desafio-react/src/css/desafio react.png"
+        alt="Gramado"
+        className="card-image"
+      />
+      <div className="card-body">
+        <div className="badge">9 DIAS / 8 NOITES</div>
+        <h2 className="title">Pacotes para Gramado</h2>
+        <div className="rating">
+          <span className="score">9.4</span>
+          <span className="stars">★★★☆☆</span>
+        </div>
+        <p className="departure">Saindo de São Paulo</p>
+        <p className="combo">Hotel + Aéreo</p>
+        <div className="discount">Economize R$84</div>
+        <div className="price-info">
+          <p className="old-price">R$ 1.266</p>
+          <p className="new-price">R$ 1.182</p>
+          <p className="note">Taxas e impostos não inclusos</p>
+        </div>
+      </div>
+    </div>
+  );
+}
